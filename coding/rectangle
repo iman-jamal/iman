@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main();{
+float l;
+float w;
+float Perimeter;
+float Area;
+printf("enter your length:");
+scanf("%f",&l);
+printf("enter your width:");
+scanf("%f",&w);
+Perimeter=(2(l+w));
+Area=(l*w);
+printf("your Perimeter is %f and your Area is %f",Perimeter,Area);
+return 0;
+}
+
+
